@@ -1,0 +1,68 @@
+@charset 'utf-8';
+body{
+	font-size: 100%;
+}
+
+.tip{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200px;
+	padding: 5px 10px;
+	border: 1px solid #666;
+	background: #fff;
+}
+.place{
+	font-size: 1em;
+	font-family: "幼圆", Tahoma, Helvetica, Arial, '宋体', sans-serif;
+	color: #444;
+}
+.weather{
+	position: relative;
+	width: 200px;
+	height: 50px;
+	margin: 5px 0;
+}
+.weather img{
+	position: relative;
+	width: 50px;
+	display: inline-block;
+	margin: 0 10px;
+}
+.weather .temp{
+	position: absolute;
+	display: inline-block;
+	height: 50px;
+	width: 130px;
+}
+.weather .temp p{
+	display: block;
+	height: 25px;
+
+	text-align: center;
+	font-size: 1.2em;
+	font-family: "微软雅黑", Tahoma, Helvetica, Arial, '宋体', sans-serif;
+	color: #444;
+}
+.temp_num{
+	color: #328A93;
+	font-weight: bold;
+}
+.air{
+	width: 200px;
+}
+.air p{
+	font-size: 1;
+	font-family: "微软雅黑", Tahoma, Helvetica, Arial, '宋体', sans-serif;
+	color: #444;
+}
+.air .air_grade{
+	margin: 0 10px;
+	color: #328A93;
+	font-weight: bold;
+}
+.air .PM{
+	margin: 0 10px;
+	color: #328A93;
+	font-weight: bold;
+}
